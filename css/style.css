@@ -118,7 +118,7 @@ h6 {
 .text-container {
     width: 800px;
     margin: 0 auto;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 23px;
 }
 
@@ -128,6 +128,16 @@ h6 {
     font-size: 23px;
 }
 
+.text-container3 {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 23px;
+}
+
+.a-link{
+    font-size: 13px;
+}
 
 
 .sezione{
@@ -137,7 +147,6 @@ h6 {
     margin-top: 100px;
     padding-left: 40px;
     margin-bottom: -60px;
-    z-index: 1;
 }
 
 .sezione2{
@@ -210,7 +219,7 @@ h6 {
 
 .user::before {
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 400;
     content: "\f007";
 }
 
@@ -222,13 +231,13 @@ h6 {
 
 .building::before {
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 400;
     content: "\f1ad";
 }
 
 .folder::before {
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 400;
     content: "\f07b";
 }
 
@@ -359,4 +368,106 @@ li {
 }
 
 
+
+.container6 {
+    width: 800px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+
+
+.sezione8{
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+
+
+.sezione-box8 {
+    width: 100%;
+    height: 200px;
+    
+}
+
+.img8 {
+    background: url(../img/business-feature-switching-tools.png) no-repeat;
+    background-size: contain;
+}
+
+.img9 {
+    background: url(../img/business-feature-coordinate-it.png) no-repeat;
+    background-size: contain;
+}
+
+.img10 {
+    background: url(../img/business-feature-multi-device.png) no-repeat;
+    background-size: contain;
+}
+
+.img11 {
+    background: url(../img/business-feature-integrations-it.png) no-repeat;
+    background-size: contain;
+}
+
+.img12 {
+    background: url(../img/business-feature-send-files-it.png) no-repeat;
+    background-size: contain;
+}
+
+.img13 {
+    background: url(../img/business-feature-security.png) no-repeat;
+    background-size: contain;
+}
+
+
+.container.footer1 {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.session-f1 {
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+
+.boxf1 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    background: aquamarine url("../img/designit.svg") no-repeat;
+    background-size: 100px;
+    filter: invert(100%);
+}
+
+.session-f2 {
+    float: left;
+    width: 40%;
+    height: 400px;
+}
+
+.boxf2 {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: url(../img/designit.svg) no-repeat;
+    background-size: 100px;
+}
+
+
+.session-f3 {
+    float: right;
+    width: 30%;
+    height: 400px;
+}
+
+.boxf3 {
+    width: 100%;
+    height: 100%;
+}
 
